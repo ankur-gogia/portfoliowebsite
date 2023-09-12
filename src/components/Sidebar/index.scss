@@ -14,11 +14,11 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 24px;
+      width: 20px;
       height: auto;
 
       &.sub-logo {
-        width: 50px;
+        width: 70px;
       }
     }
   }
@@ -93,6 +93,11 @@
     a.portfolio-link {
       &:after {
         content: 'PORTFOLIO';
+      }
+    }
+    a.resume-link {
+      &:after {
+        content: 'RESUME';
       }
     }
 

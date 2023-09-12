@@ -287,9 +287,22 @@
   /* border-radius: 10; */
 }
 
-@media (min-width: 768px) {
-  .button-523 {
-    padding: 13px 50px 13px;
+@media screen and (max-width: 600px) {
+  .arrow-left {
+    left: 10rem;
+    bottom: -5rem;
   }
+  
+  .arrow-right {
+    right: 10rem;
+    bottom: -5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .button-523 {
+    padding: px 50px 13px;
+  }
+  
 }
 /* ... (other styles) */
