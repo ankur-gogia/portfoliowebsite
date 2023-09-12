@@ -64,8 +64,8 @@ const Portfolio = () => {
     <div class="button-center">
       <button class="btn"  onClick={() => setIsGridView(true)}>
         <svg width="180px" height="60px" viewBox="0 0 180 60" class="button-border">
-        <rect class="bg-line"  x="0" y="0" width="180" height="60" rx="10" ry="10" fill="none" />
-        <rect class="hl-line"  x="0" y="0" width="180" height="60" rx="10" ry="10" fill="none" />
+        <rect class="bg-line"  x="0" y="0" width="180" height="60" rx="0" ry="0" fill="none" />
+        <rect class="hl-line"  x="0" y="0" width="180" height="60" rx="0" ry="0" fill="none" />
         </svg>
         <span>VIEW ALL</span>
       </button>

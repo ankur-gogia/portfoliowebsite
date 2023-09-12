@@ -64,7 +64,7 @@ const Home = () => {
           <Link style={{
     textDecoration: 'none',
     color: 'rgb(19 82 116)',
-    fontWeight: '340',
+    fontWeight: '500',
     fontSize: '15px',
     fontFamily: 'inherit',
     letterSpacing:'3px'

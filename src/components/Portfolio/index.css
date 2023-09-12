@@ -237,7 +237,7 @@
   height: 60px;
   position: absolute;
   bottom: -9rem;
-  border-radius: 3rem;
+  /* border-radius: 3rem; */
 }
 
 .btn {
@@ -254,7 +254,7 @@
   font-size: 20px;
   letter-spacing: 5px;
   font-weight: 400;
-  border-radius:10px;
+  /* border-radius:10px; */
   color: black;
   
 }
@@ -284,7 +284,7 @@
   color: white;
   font-size: 18px;
   font-weight: 100;
-  border-radius: 10;
+  /* border-radius: 10; */
 }
 
 @media (min-width: 768px) {

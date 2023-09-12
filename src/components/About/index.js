@@ -1,16 +1,9 @@
 import {useState} from 'react'
-import {
-  faAmazon,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import { faBowlFood, faCameraRetro, faCode, faCompass, faEarthAmericas, faEarthAsia, faPaperPlane, faPlane, faPlaneArrival, faVideoCamera } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -47,22 +40,22 @@ const About = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAmazon} color="#DD0031" />
+            <FontAwesomeIcon icon={faPlane} color="#191825"/>
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faCompass} color="#865DFF" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            <FontAwesomeIcon icon={faEarthAsia} color="#FF8400"/>
             </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            <div className="face4" >
+              <FontAwesomeIcon icon={faCameraRetro} color="#FFEA20"/>
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              <FontAwesomeIcon icon={faVideoCamera} color="#E90064" />
             </div> 
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faCode} color="#E384FF" />
             </div>
           </div>
         </div>
