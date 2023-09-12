@@ -291,11 +291,13 @@
   .arrow-left {
     left: 10rem;
     bottom: -5rem;
+    z-index: 1000;
   }
   
   .arrow-right {
     right: 10rem;
     bottom: -5rem;
+    z-index: 1000;
   }
 }
 
