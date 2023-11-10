@@ -66,7 +66,7 @@ const Sidebar = () => {
         <NavLink
   activeclassname="active"
   className="resume-link"
-  to="https://drive.google.com/file/d/1P4odwIo_vKqAfh2yTNXpDClgtOMC0TcS/view?usp=sharing"
+  to="https://drive.google.com/file/d/1tLOeSJknhMWs93-ONhfcQuN0sU6kYVne/view?usp=sharing"
   onClick={() => setShowNav(false)}
   target="_blank"
 >
